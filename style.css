@@ -1,0 +1,69 @@
+body {
+  background-color: royalblue;
+  text-align: center;
+  font-family: "Helvetica Neue", arial;
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3em;
+}
+
+p {
+  margin: 0;
+}
+
+div.eight-ball,
+div.answer {
+  border: 1px solid transparent;
+}
+
+div.eight-ball {
+  background-color: salmon;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+div.answer {
+  background-color: whitesmoke;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin: 25% auto;
+}
+
+p#eight {
+  font-size: 4rem;
+  margin: 25% auto;
+  color: #404040;
+}
+
+p#answer {
+  color: #404040;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-size: 24px;
+  text-align: center;
+}
+
+button,
+input {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-family: "Helvetica Neue", arial;
+  font-weight: 100;
+  letter-spacing: 2px;
+  transition: font-size 0.5s;
+}
+
+button:hover {
+  font-size: 1.5em;
+  cursor: pointer;
+}
